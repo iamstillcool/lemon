@@ -1,6 +1,4 @@
-if islclosure(syn.request) then
-game:Shutdown()
-end
+
 local cps = "6"
 local heal = "Bloodfruit"
 game:GetService("UserInputService").InputBegan:Connect(function(a)
